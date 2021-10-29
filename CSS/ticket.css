@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html {
+    font-size: large; /*62.5% 10px */
+}
+  
+body header{
+    background-color: rgb(77, 66, 66);
+    width: 100%;
+}
+
+body header h1{
+    display: inline-block;
+    color:white;
+    text-align: left;
+    font-size: x-large;
+}
+
+.card{
+    position: relative;
+    text-align: center;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    margin-top: 2rem;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.card-body h2{
+    font-size: x-large;
+    padding: 1rem;
+}
+
+.card-body h5{
+    font-size: medium;   
+}
+
+.card-body h6{
+    font-size: small;
+    padding: 1rem;
+}
+
+p{
+   text-align: center;
+}
+
+body h6{
+    text-align: center;
+}
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    background-color: rgb(27, 59, 58);
+    padding: 3%;
+    padding-left: 10rem;
+    margin-top: 2%;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer div a {
+    color: white;
+    padding: 2rem;
+    text-decoration: none;
+}
+footer div p {
+    color: white;
+    margin: 0%;
+}
